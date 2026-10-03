@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta name="google-site-verification" content="7JgOaqEJsjVlNd1PhJEV4BBrkohBbR_rpJijVnWD_-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complete Gids voor Bandenonderhoud en Auto Onderhoud in Antwerpen</title>
+
+    <meta name="description"
+          content="Ontdek hoe u uw banden, remmen, velgen, uitlijning en auto goed onderhoudt. Praktische gids voor automobilisten in Antwerpen en omgeving.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+            line-height: 1.75;
+        }
+
+        :root {
+            --yellow: #f5bd00;
+            --yellow-dark: #dca900;
+            --black: #151515;
+            --dark: #202020;
+            --white: #ffffff;
+            --light: #f7f7f7;
+            --border: #e5e5e5;
+        }
+
+        /* =========================
+           HEADER
+        ========================== */
+
+        .site-header {
+            width: 100%;
+            background: #fff;
+            padding-top: 28px;
+        }
+
+        .header-inner {
+            width: 92%;
+            max-width: 1240px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 265px;
+            min-width: 265px;
+            height: 64px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            z-index: 5;
+        }
+
+        .logo-main {
+            font-size: 31px;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: -2px;
+            color: var(--yellow);
+            text-shadow: 2px 2px 0 #111;
+        }
+
+        .logo-main span {
+            color: #111;
+        }
+
+        .logo-sub {
+            position: absolute;
+            left: 20px;
+            bottom: 3px;
+            background: #111;
+            color: #fff;
+            padding: 1px 12px;
+            font-size: 8px;
+            letter-spacing: 1.5px;
+            font-weight: bold;
+        }
+
+        .nav-wrapper {
+            flex: 1;
+            min-height: 47px;
+            background: var(--yellow);
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+        }
+
+        .main-nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 27px;
+        }
+
+        .main-nav a {
+            color: #111;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 800;
+            font-style: italic;
+            white-space: nowrap;
+            transition: .25s ease;
+        }
+
+        .main-nav a:hover {
+            color: #fff;
+        }
+
+        .appointment-btn {
+            margin-left: auto;
+            background: #171717;
+            color: #fff !important;
+            padding: 15px 18px;
+            font-size: 13px !important;
+            font-style: normal !important;
+            font-weight: 600 !important;
+        }
+
+        .appointment-btn:hover {
+            background: #333;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            width: 92%;
+            max-width: 1290px;
+            min-height: 510px;
+            margin: 32px auto 0;
+
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+
+            background:
+                linear-gradient(
+                    rgba(8, 8, 8, .72),
+                    rgba(8, 8, 8, .82)
+                ),
+                radial-gradient(
+                    circle at center,
+                    #555 0%,
+                    #292929 45%,
+                    #0c0c0c 100%
+                );
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            border: 2px solid rgba(255,255,255,.05);
+            border-radius: 50%;
+            left: -220px;
+            top: -300px;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border: 65px solid rgba(245,189,0,.05);
+            border-radius: 50%;
+            right: -250px;
+            bottom: -260px;
+        }
+
+        .hero-content {
+            width: 90%;
+            max-width: 950px;
+            position: relative;
+            z-index: 2;
+            color: #fff;
+        }
+
+        .hero-label {
+            display: inline-block;
+            background: var(--yellow);
+            color: #111;
+            padding: 7px 19px;
+            margin-bottom: 22px;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 5vw, 68px);
+            line-height: 1.08;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            color: var(--yellow);
+        }
+
+        .hero-description {
+            max-width: 760px;
+            margin: auto;
+            font-size: 18px;
+            color: #eee;
+            line-height: 1.7;
+        }
+
+        /* =========================
+           CONTENT
+        ========================== */
+
+        .article-area {
+            width: 92%;
+            max-width: 1180px;
+            margin: 55px auto;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 300px;
+            gap: 35px;
+            align-items: start;
+        }
+
+        .article {
+            background: #fff;
+            padding: 50px;
+            border-top: 6px solid var(--yellow);
+            box-shadow: 0 8px 30px rgba(0,0,0,.07);
+        }
+
+        .article-intro {
+            color: #444;
+            font-size: 19px;
+            line-height: 1.85;
+            margin-bottom: 35px;
+        }
+
+        .article h2 {
+            position: relative;
+            padding-left: 18px;
+            margin: 42px 0 17px;
+            color: #171717;
+            font-size: 29px;
+            line-height: 1.25;
+            font-weight: 900;
+        }
+
+        .article h2::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 3px;
+            width: 5px;
+            height: calc(100% - 6px);
+            background: var(--yellow);
+        }
+
+        .article p {
+            color: #444;
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+
+        .article strong {
+            color: #111;
+        }
+
+        .article a {
+            color: #bd9000;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .article a:hover {
+            text-decoration: underline;
+        }
+
+        /* =========================
+           SIDEBAR
+        ========================== */
+
+        .sidebar {
+            position: sticky;
+            top: 25px;
+        }
+
+        .side-card {
+            background: #fff;
+            margin-bottom: 22px;
+            box-shadow: 0 7px 25px rgba(0,0,0,.07);
+            overflow: hidden;
+        }
+
+        .side-title {
+            background: #171717;
+            color: #fff;
+            padding: 17px 20px;
+            border-left: 5px solid var(--yellow);
+            font-size: 16px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .side-body {
+            padding: 22px;
+        }
+
+        .quick-link {
+            display: block;
+            padding: 11px 0;
+            border-bottom: 1px solid #eee;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: .2s;
+        }
+
+        .quick-link:last-child {
+            border-bottom: 0;
+        }
+
+        .quick-link:hover {
+            color: #b98b00;
+            padding-left: 6px;
+        }
+
+        .service-list {
+            list-style: none;
+        }
+
+        .service-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            color: #444;
+            font-size: 14px;
+        }
+
+        .service-list li:last-child {
+            border-bottom: 0;
+        }
+
+        .service-list li::before {
+            content: "✓";
+            display: inline-flex;
+            width: 22px;
+            height: 22px;
+            align-items: center;
+            justify-content: center;
+            margin-right: 9px;
+            background: var(--yellow);
+            color: #111;
+            border-radius: 50%;
+            font-size: 11px;
+            font-weight: 900;
+        }
+
+        /* =========================
+           CTA
+        ========================== */
+
+        .side-cta {
+            background: var(--yellow);
+            padding: 28px 22px;
+            text-align: center;
+        }
+
+        .side-cta h3 {
+            color: #111;
+            font-size: 21px;
+            margin-bottom: 9px;
+        }
+
+        .side-cta p {
+            color: #222;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 13px 20px;
+            background: #111;
+            color: #fff !important;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            transition: .25s;
+        }
+
+        .cta-btn:hover {
+            background: #333;
+        }
+
+        /* =========================
+           ARTICLE CTA
+        ========================== */
+
+        .article-cta {
+            position: relative;
+            overflow: hidden;
+            margin-top: 45px;
+            padding: 35px;
+            background: #171717;
+        }
+
+        .article-cta::after {
+            content: "";
+            position: absolute;
+            width: 170px;
+            height: 170px;
+            border: 35px solid rgba(245,189,0,.12);
+            border-radius: 50%;
+            right: -70px;
+            top: -70px;
+        }
+
+        .article-cta h2 {
+            position: relative;
+            z-index: 2;
+            margin: 0 0 12px;
+            padding: 0;
+            color: #fff;
+        }
+
+        .article-cta h2::before {
+            display: none;
+        }
+
+        .article-cta p {
+            position: relative;
+            z-index: 2;
+            color: #ccc;
+        }
+
+        .article-cta .cta-btn {
+            position: relative;
+            z-index: 2;
+            margin-top: 8px;
+            background: var(--yellow);
+            color: #111 !important;
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            margin-top: 70px;
+            background: #111;
+            color: #aaa;
+        }
+
+        .footer-main {
+            width: 92%;
+            max-width: 1180px;
+            margin: auto;
+            padding: 55px 0;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 45px;
+        }
+
+        .footer-logo {
+            margin-bottom: 12px;
+            color: var(--yellow);
+            font-size: 30px;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        .footer-column h3 {
+            color: #fff;
+            margin-bottom: 18px;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .footer-column p,
+        .footer-column a {
+            display: block;
+            margin-bottom: 9px;
+            color: #aaa;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .footer-column a:hover {
+            color: var(--yellow);
+        }
+
+        .footer-bottom {
+            padding: 18px;
+            border-top: 1px solid #292929;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================== */
+
+        @media (max-width: 1100px) {
+
+            .main-nav {
+                gap: 15px;
+            }
+
+            .main-nav a {
+                font-size: 14px;
+            }
+
+            .logo {
+                width: 220px;
+                min-width: 220px;
+            }
+
+            .article-area {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                position: static;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .side-card {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (max-width: 800px) {
+
+            .site-header {
+                padding-top: 15px;
+            }
+
+            .header-inner {
+                width: 94%;
+                flex-direction: column;
+            }
+
+            .logo {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+
+            .nav-wrapper {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .main-nav {
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 12px 18px;
+            }
+
+            .appointment-btn {
+                margin-left: 0;
+            }
+
+            .hero {
+                width: 94%;
+                min-height: 430px;
+                margin-top: 20px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero-description {
+                font-size: 16px;
+            }
+
+            .article-area {
+                width: 94%;
+                margin-top: 35px;
+            }
+
+            .article {
+                padding: 30px 22px;
+            }
+
+            .sidebar {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-main {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .main-nav a {
+                font-size: 12px;
+            }
+
+            .appointment-btn {
+                padding: 10px 13px;
+            }
+
+            .hero {
+                min-height: 390px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero-label {
+                font-size: 10px;
+            }
+
+            .article h2 {
+                font-size: 24px;
+            }
+
+            .article p {
+                font-size: 15px;
+            }
+
+            .article-intro {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <div class="logo">
+            <div>
+                <div class="logo-main">
+                    ONTI <span>BANDEN</span>
+                </div>
+
+                <div class="logo-sub">
+                    UW BANDENSPECIALIST
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-wrapper">
+
+            <nav class="main-nav">
+
+                <a href="#">Home</a>
+                <a href="#">BANDEN</a>
+                <a href="#">VELGEN</a>
+                <a href="#">REMMEN</a>
+                <a href="#">SERVICES</a>
+                <a href="#">CONTACT</a>
+                <a href="#">BLOG</a>
+                <a href="#">REGIO'S</a>
+
+                <a href="#contact" class="appointment-btn">
+                    Boek uw afspraak!
+                </a>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-label">
+            BANDEN & AUTO ONDERHOUD
+        </div>
+
+        <h1>
+            Complete Gids voor
+            <span>Bandenonderhoud</span>
+            in Antwerpen
+        </h1>
+
+        <p class="hero-description">
+            Praktische informatie over banden, velgen, uitlijning,
+            remmen, onderhoud en andere belangrijke diensten voor
+            automobilisten in Antwerpen en omgeving.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MAIN ARTICLE
+========================= -->
+
+<main class="article-area">
+
+    <article class="article">
+
+        <p class="article-intro">
+            Een veilige en betrouwbare auto vraagt om meer dan alleen
+            regelmatig tanken en af en toe het oliepeil controleren.
+            Banden, remmen, velgen, wieluitlijning en algemeen onderhoud
+            spelen allemaal een belangrijke rol in de prestaties van
+            een voertuig. Voor automobilisten in Antwerpen en omgeving
+            kan een professionele bandencentrale helpen om het onderhoud
+            overzichtelijk en efficiënt te houden. <strong><a href="https://www.onti-banden.be/">Banden Antwer</a></a></strong>
+            biedt verschillende banden- en voertuigdiensten aan voor
+            automobilisten in Deurne en Groot-Antwerpen.
+        </p>
+
+
+        <h2>Waarom goed bandenonderhoud belangrijk is</h2>
+
+        <p>
+            Banden zijn het enige onderdeel van een auto dat rechtstreeks
+            contact maakt met het wegdek. Daardoor hebben ze invloed op
+            remmen, sturen, rijcomfort en de algemene stabiliteit van het
+            voertuig. Regelmatig de bandenspanning en het profiel
+            controleren kan helpen om problemen vroegtijdig op te merken.
+        </p>
+
+        <p>
+            Ongelijkmatige slijtage van het profiel kan bijvoorbeeld wijzen
+            op een probleem met de wieluitlijning. Wanneer een band steeds
+            opnieuw druk verliest, kan er sprake zijn van een lek, een
+            probleem met het ventiel of een andere technische oorzaak.
+            Ook scheuren, bulten en opvallende slijtagepatronen verdienen
+            de nodige aandacht.
+        </p>
+
+        <p>
+            Het kiezen van de juiste bandenmaat is eveneens belangrijk.
+            Elk voertuig heeft specifieke afmetingen en technische
+            vereisten. Een professionele bandenspecialist kan helpen om
+            een geschikte keuze te maken op basis van het voertuig,
+            de rijomstandigheden en het beschikbare budget.
+        </p>
+
+
+        <h2>Nieuwe en gebruikte banden voor verschillende behoeften</h2>
+
+        <p>
+            Niet iedere automobilist heeft dezelfde wensen bij het kopen
+            van banden. Sommige bestuurders kiezen graag voor nieuwe
+            banden van bekende merken, terwijl anderen vooral op zoek
+            zijn naar een voordeligere oplossing voor een ouder voertuig
+            of een auto die relatief weinig kilometers rijdt.
+        </p>
+
+        <p>
+            Een gespecialiseerde bandencentrale kan verschillende maten,
+            merken en prijsklassen aanbieden. Onti-Banden beschikt over
+            nieuwe en gebruikte banden en biedt mogelijkheden voor
+            verschillende voertuigen en budgetten.
+        </p>
+
+        <p>
+            De prijs is echter niet het enige aandachtspunt. De staat
+            van de band, de juiste maat, profieldiepte, leeftijd en
+            geschiktheid voor het voertuig zijn eveneens belangrijk.
+            Na aankoop is een professionele montage en correcte
+            balancering nodig om ervoor te zorgen dat de banden goed
+            worden geplaatst.
+        </p>
+
+
+        <h2>Wieluitlijning voor een stabiel rijgedrag</h2>
+
+        <p>
+            Trekt de auto tijdens het rijden naar één kant? Staat het
+            stuur niet recht wanneer u rechtdoor rijdt? Of slijten de
+            banden opvallend ongelijkmatig? Dan kan het verstandig zijn
+            om de wieluitlijning te laten controleren.
+        </p>
+
+        <p>
+            Een uitlijningsprobleem kan bijvoorbeeld ontstaan nadat een
+            voertuig een diepe put, stoeprand of andere hindernis heeft
+            geraakt. Een correcte uitlijning helpt ervoor te zorgen dat
+            de wielen zich volgens de juiste geometrie ten opzichte van
+            het wegdek bevinden.
+        </p>
+
+        <p>
+            Moderne apparatuur maakt het mogelijk om de wielgeometrie
+            nauwkeurig te meten. Onti-Banden biedt professionele
+            <strong>3D-uitlijning in Antwerpen</strong>, zodat bestuurders
+            de uitlijning van hun voertuig kunnen laten controleren en
+            indien nodig laten aanpassen.
+        </p>
+
+        <p>
+            Ook balanceren is een belangrijk onderdeel van bandenservice.
+            Wanneer een nieuwe band op een velg wordt gemonteerd, zorgt
+            een correcte balancering ervoor dat het gewicht gelijkmatig
+            wordt verdeeld. Dit kan ongewenste trillingen tijdens het
+            rijden helpen beperken.
+        </p>
+
+
+        <h2>Negeer problemen met de remmen niet</h2>
+
+        <p>
+            Remmen zijn essentieel voor de veiligheid van iedere auto.
+            Daarom is het belangrijk om veranderingen tijdens het remmen
+            serieus te nemen. Piepende of schurende geluiden, trillingen,
+            een zacht rempedaal of een afwijkend gevoel tijdens het
+            afremmen kunnen signalen zijn dat controle nodig is.
+        </p>
+
+        <p>
+            Remblokken en remklauwen kunnen na verloop van tijd slijten.
+            Wanneer onderdelen vervangen moeten worden, hangt dit onder
+            andere af van het voertuig, de rijstijl, het aantal kilometers
+            en de omstandigheden waarin de auto wordt gebruikt.
+        </p>
+
+        <p>
+            Onti-Banden biedt remservices in Antwerpen, waaronder het
+            vervangen van remblokken en remklauwen. Door problemen tijdig
+            te laten controleren kan verdere slijtage of een grotere
+            reparatie mogelijk worden voorkomen.
+        </p>
+
+
+        <h2>Regelmatig auto-onderhoud voorkomt onverwachte problemen</h2>
+
+        <p>
+            Regelmatig onderhoud is een praktische manier om een voertuig
+            betrouwbaar te houden. Tijdens een onderhoudsbeurt kunnen
+            belangrijke onderdelen worden gecontroleerd en kunnen tekenen
+            van slijtage of mogelijke defecten vroeg worden vastgesteld.
+        </p>
+
+        <p>
+            Voor bestuurders die dagelijks afhankelijk zijn van hun auto,
+            kan een onverwacht technisch probleem bijzonder vervelend zijn.
+            Preventief onderhoud biedt de mogelijkheid om bepaalde
+            aandachtspunten te ontdekken voordat ze tot grotere problemen
+            leiden.
+        </p>
+
+        <p>
+            Onti-Banden biedt zowel klein als groot onderhoud aan. Hierdoor
+            kunnen automobilisten naast bandenservice ook terecht voor
+            verschillende algemene onderhoudswerkzaamheden aan hun voertuig.
+        </p>
+
+
+        <h2>Distributieriem tijdig laten vervangen</h2>
+
+        <p>
+            De distributieriem is een belangrijk onderdeel van de motor.
+            Het aanbevolen vervangingsinterval verschilt per voertuig en
+            wordt bepaald door de voorschriften van de fabrikant.
+        </p>
+
+        <p>
+            Een distributieriem kan slijten zonder dat de bestuurder altijd
+            duidelijke waarschuwingstekens merkt. Daarom is het belangrijk
+            om de aanbevolen onderhoudsintervallen van het voertuig te
+            controleren.
+        </p>
+
+        <p>
+            Een defecte distributieriem kan bij bepaalde motoren ernstige
+            motorschade veroorzaken. Het gebruik van geschikte onderdelen
+            en een nauwkeurige montage zijn daarom belangrijke aandachtspunten.
+        </p>
+
+        <p>
+            Onti-Banden biedt professionele vervanging van de
+            <strong>distributieriem in Antwerpen</strong>. Voor een correcte
+            service is het belangrijk om de juiste voertuiggegevens door
+            te geven.
+        </p>
+
+
+        <h2>Handige opslag van seizoensbanden</h2>
+
+        <p>
+            Wanneer banden per seizoen worden gewisseld, ontstaat vaak
+            dezelfde praktische vraag: waar moeten de banden worden
+            opgeslagen wanneer ze niet worden gebruikt?
+        </p>
+
+        <p>
+            Een bandenhotel kan hiervoor een handige oplossing zijn.
+            Onti-Banden biedt bandenopslag voor klanten tijdens de
+            zomer- en winterperiode. De banden worden veilig opgeslagen
+            en de opslagruimte beschikt over camerabewaking.
+        </p>
+
+        <p>
+            Hierdoor hoeft u thuis geen ruimte vrij te maken voor een
+            volledige set banden en blijven de banden overzichtelijk
+            opgeslagen tot het volgende seizoen.
+        </p>
+
+
+        <h2>Een lokale bandencentrale in Antwerpen kiezen</h2>
+
+        <p>
+            Bij het kiezen van een garage of bandencentrale is de locatie
+            natuurlijk belangrijk, maar er zijn ook andere factoren om
+            rekening mee te houden. Ervaring, beschikbare apparatuur,
+            het aanbod van diensten, duidelijke prijzen en een goede
+            bereikbaarheid kunnen allemaal een rol spelen.
+        </p>
+
+        <p>
+            Een lokale specialist kan bovendien handig zijn wanneer u
+            regelmatig terugkomt voor bandenwissels, onderhoud,
+            uitlijning, remservice of andere werkzaamheden.
+        </p>
+
+        <p>
+            Onti-Banden is gevestigd in Deurne en richt zich op klanten
+            uit verschillende delen van Groot-Antwerpen, waaronder
+            Merksem, Berchem, Borgerhout, Hoboken, Wilrijk en Mortsel.
+        </p>
+
+
+        <h2>Uw auto klaar voor de weg houden</h2>
+
+        <p>
+            Goed auto-onderhoud hoeft niet altijd ingewikkeld te zijn.
+            Eenvoudige gewoontes zoals het controleren van de
+            bandenspanning, het bekijken van het profiel en het
+            opvolgen van het onderhoudsschema van de fabrikant kunnen
+            helpen om uw voertuig in goede staat te houden.
+        </p>
+
+        <p>
+            Het is ook verstandig om aandacht te besteden aan vreemde
+            geluiden, trillingen of veranderingen in het rijgedrag.
+            Wanneer iets niet normaal aanvoelt, kan een professionele
+            controle duidelijkheid geven over de oorzaak.
+        </p>
+
+        <p>
+            Van <strong>nieuwe en gebruikte banden tot uitlijning,
+            balanceren, remmen, onderhoud, distributieriemen,
+            bandenopslag en voorbereiding voor de keuring</strong>:
+            Onti-Banden biedt een uitgebreid aanbod van diensten voor
+            automobilisten in Antwerpen en omgeving.
+        </p>
+
+
+        <!-- CTA -->
+
+        <div class="article-cta">
+
+            <h2>Professionele banden- en autoservice</h2>
+
+            <p>
+                Op zoek naar een bandenspecialist of auto-onderhoud
+                in Antwerpen? Bekijk de beschikbare diensten en
+                ontdek wat Onti-Banden voor uw voertuig kan betekenen.
+            </p>
+
+            <a
+                class="cta-btn"
+                href="https://www.onti-banden.be/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Bekijk Onti-Banden
+            </a>
+
+        </div>
+
+    </article>
+
+
+    <!-- =========================
+         SIDEBAR
+    ========================= -->
+
+    <aside class="sidebar">
+
+        <div class="side-card">
+
+            <div class="side-title">
+                Inhoud van het artikel
+            </div>
+
+            <div class="side-body">
+
+                <a class="quick-link" href="#">
+                    Bandenonderhoud
+                </a>
+
+                <a class="quick-link" href="#">
+                    Nieuwe & gebruikte banden
+                </a>
+
+                <a class="quick-link" href="#">
+                    Wieluitlijning
+                </a>
+
+                <a class="quick-link" href="#">
+                    Remservice
+                </a>
+
+                <a class="quick-link" href="#">
+                    Auto-onderhoud
+                </a>
+
+                <a class="quick-link" href="#">
+                    Distributieriem
+                </a>
+
+                <a class="quick-link" href="#">
+                    Bandenopslag
+                </a>
+
+                <a class="quick-link" href="#">
+                    Auto klaar voor de weg
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="side-card">
+
+            <div class="side-title">
+                Onze diensten
+            </div>
+
+            <div class="side-body">
+
+                <ul class="service-list">
+
+                    <li>Nieuwe banden</li>
+                    <li>Gebruikte banden</li>
+                    <li>Velgen</li>
+                    <li>3D-uitlijning</li>
+                    <li>Balanceren</li>
+                    <li>Remservice</li>
+                    <li>Klein en groot onderhoud</li>
+                    <li>Distributieriem</li>
+                    <li>Bandenhotel</li>
+                    <li>Keuring</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="side-cta">
+
+            <h3>Service nodig?</h3>
+
+            <p>
+                Ontdek de banden- en autoservices van
+                Onti-Banden in Antwerpen.
+            </p>
+
+            <a
+                href="https://www.onti-banden.be/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn"
+            >
+                Meer informatie
+            </a>
+
+        </div>
+
+    </aside>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-column">
+
+            <div class="footer-logo">
+                ONTI BANDEN
+            </div>
+
+            <p>
+                Uw specialist in banden en professioneel
+                auto-onderhoud in Deurne en Groot-Antwerpen.
+            </p>
+
+            <p>
+                Kwalitatieve service voor verschillende
+                voertuigen en onderhoudsbehoeften.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Diensten</h3>
+
+            <a href="#">Banden</a>
+            <a href="#">Velgen</a>
+            <a href="#">Remmen</a>
+            <a href="#">Onderhoud</a>
+            <a href="#">Uitlijning</a>
+            <a href="#">Bandenhotel</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Handige links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Regio's</a>
+
+            <a
+                href="https://www.onti-banden.be/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Officiële website
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        © 2026 Onti-Banden. Alle rechten voorbehouden.
+    </div>
+
+</footer>
+
+
+</body>
+</html>
+```
